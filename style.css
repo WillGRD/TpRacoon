@@ -1,0 +1,12 @@
+nav {
+    display: flex;
+    background-color: red;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    
+}
+
