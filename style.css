@@ -1,12 +1,108 @@
-nav {
-    display: flex;
-    background-color: red;
-    width: 100%;
+body {
+    margin: 0;
 }
 
-ul {
+header nav {
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center
+}
+
+header a {
+    justify-content: flex-start;
+    padding: 1.563rem 1rem;
+}
+
+.logo {
+    display: flex;
+    margin: 35px;
+
+}
+
+header nav ul {
     display: flex;
     list-style: none;
-    
 }
+
+header nav ul li {
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav ul li .acc {
+    padding-left: 20%;
+}
+
+.fb {
+    width: 10px;
+    height: 20px;
+}
+
+.tw {
+    width: 25px;
+    height: 20px;
+}
+
+header img {
+    width: 100%;
+    object-fit: cover;
+    max-width: 1920px;
+}
+
+aside {}
+
+article {
+    max-width: 1040px;
+}
+
+.side {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+.side1 {
+    padding: 17px;
+
+}
+
+.side2 {
+    padding: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
